@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Teachers - S.V.M. Public School</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+    }
+
+    header {
+      background: linear-gradient(90deg, #005bea, #00c6fb);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #00c6fb;
+      color: black;
+      border-radius: 5px;
+    }
+
+    .teachers-section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .teachers-section h2 {
+      color: #333;
+      margin-bottom: 40px;
+      font-size: 2em;
+      border-bottom: 3px solid #00c6fb;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .teacher-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .teacher-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .teacher-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .teacher-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .teacher-info {
+      padding: 15px;
+    }
+
+    .teacher-info h3 {
+      margin: 10px 0 5px;
+      color: #005bea;
+    }
+
+    .teacher-info p {
+      color: #555;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>S.V.M. Public School</h1>
+    <p>Meet Our Dedicated Teachers</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="teachers.html">Teachers</a>
+    <a href="students.html">Students</a>
+    <a href="admission.html">Admission</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="teachers-section">
+    <h2>Our Teachers</h2>
+
+    <div class="teacher-grid">
+      <div class="teacher-card">
+        <img src="https://via.placeholder.com/400x250?text=Teacher+1" alt="Teacher 1">
+        <div class="teacher-info">
+          <h3>Mrs. Neha Sharma</h3>
+          <p>Mathematics Teacher</p>
+          <p><b>Experience:</b> 8 Years</p>
+        </div>
+      </div>
+
+      <div class="teacher-card">
+        <img src="https://via.placeholder.com/400x250?text=Teacher+2" alt="Teacher 2">
+        <div class="teacher-info">
+          <h3>Mr. Rajesh Kumar</h3>
+          <p>Science Teacher</p>
+          <p><b>Experience:</b> 10 Years</p>
+        </div>
+      </div>
+
+      <div class="teacher-card">
+        <img src="https://via.placeholder.com/400x250?text=Teacher+3" alt="Teacher 3">
+        <div class="teacher-info">
+          <h3>Mrs. Priya Verma</h3>
+          <p>English Teacher</p>
+          <p><b>Experience:</b> 6 Years</p>
+        </div>
+      </div>
+
+      <div class="teacher-card">
+        <img src="https://via.placeholder.com/400x250?text=Teacher+4" alt="Teacher 4">
+        <div class="teacher-info">
+          <h3>Mr. Suresh Yadav</h3>
+          <p>Physical Education Teacher</p>
+          <p><b>Experience:</b> 5 Years</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 S.V.M. Public School | Designed by KRISHHH Ravtani</p>
+  </footer>
+</body>
+</html>
